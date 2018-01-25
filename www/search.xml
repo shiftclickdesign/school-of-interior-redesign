@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+
+<coffeecupsearch
+  version="5.0"
+  siteurl="http://www.schoolofinteriorredesign.com/"
+  mainwidth="235"
+  mainheight="40"
+  resultsperpage="10"
+  bkdobk="true"
+  bkdogradient="false"
+  bkfillclr="0xFFFFFF"
+  bkfillalpha="100"
+  bkgradclr="0xFFFFFF"
+  bkgradalpha="100"
+  bkgradangle="70"
+  btnbkd="true"
+  bkdoimg="false"
+  bkimg=""
+  bkdobdr="true"
+  bkbdrsolid="true"
+  bkbdrcolor="0x000000"
+
+  tfx="10"
+  tfy="10"
+  tfw="135"
+  tfh="20"
+  tfalpha="100"
+  tfinittext="Search"
+  tfbkcolor="0xFFFFFF"
+  tffontcolor="0x000000"
+  tffntweight="normal"
+  tffntstyle="normal"
+  tffntname="Arial"
+  tfmaxchar="0"
+
+  sound=""
+  btnx="150"
+  btny="10"
+  btnw="75"
+  btnh="20"
+  btnimage=""
+  btnalpha="100"
+  btninittext="Search"
+  btnbkcolor="0xFFFFFF"
+  btnfontcolor="0x000000"
+  btnfntweight="normal"
+  btnfntstyle="normal"
+  btnfntsize="12"
+  btnfntname="Arial"
+
+  htmlheader=""
+  htmlfooter=""
+  htmlfontname="Arial"
+  htmlbkcolor="0xFFFFFF"
+  htmltextcolor="0x000000"
+  htmllinkcolor="0x333399"
+  htmlvlinkcolor="0x800000"
+  htmlfontsize="12"
+  htmlfontbold="false"
+  htmlfontitalic="false"
+  htmldate="true"
+  htmldef="true"
+  htmlrel="true"
+  htmldeflanguage="English"
+  htmlhighlight="0xFFFF99"
+  htmldatefontface="Arial"
+  htmldatefontsize="12"
+  htmldatefontcolor="0x333399"
+  htmldatefontstyle="0"
+  htmlrelevancyfontface="Arial"
+  htmlrelevancyfontsize="12"
+  htmlrelevancyfontcolor="0x000000"
+  htmlrelevancyfontstyle="0"
+  htmldefinitionfontface="Arial"
+  htmldefinitionfontsize="12"
+  htmldefinitionfontcolor="0x333399"
+  htmldefinitionfontstyle="0"
+  scriptpath=""
+  htmlswf="&lt;object classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot;
+ codebase=&quot;http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0&quot;
+ width=&quot;235&quot; height=&quot;40&quot; id=&quot;CoffeeCup&quot; align=&quot;middle&quot;&gt;
+&lt;param name=&quot;movie&quot; value=&quot;search.swf&quot;/&gt;
+&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;
+&lt;param name=&quot;scale&quot; value=&quot;noscale&quot; /&gt;
+&lt;param name=&quot;salign&quot; value=&quot;lt&quot; /&gt;
+&lt;param name=&quot;bgcolor&quot; value=&quot;#ffffff&quot; /&gt;
+&lt;embed src=&quot;search.swf&quot; quality=&quot;high&quot; bgcolor=&quot;#ffffff&quot; width=&quot;235&quot; height=&quot;40&quot;
+ name=&quot;CoffeeCup&quot; scale=&quot;noscale&quot; salign=&quot;lt&quot; align=&quot;middle&quot; type=&quot;application/x-shockwave-flash&quot;
+ pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; /&gt;&lt;/object&gt;"
+>
+</coffeecupsearch>

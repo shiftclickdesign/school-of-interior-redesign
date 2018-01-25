@@ -1,0 +1,40 @@
+<li class="course-name"><label>Professional Interior Decorating (1 Day)</label></li>
+<li class="course-payment">
+	<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+		<input type="hidden" name="cmd" value="_s-xclick">
+		<input type="hidden" name="hosted_button_id" value="4YCNTVQ3BAU8S">
+		<label><input type="hidden" name="on0" value="Payment Options:">Payment Options:</label>
+		<span class="options">
+			<select name="os0">
+				<option value="Deposit">Deposit $250.00 USD</option>
+				<option value="Balance Due">Balance Due $250.00 USD</option>
+				<option value="Total Fee">Total Fee $500.00 USD</option>
+			</select>
+		</span>
+		<span>
+			<input type="hidden" name="currency_code" value="USD">
+			<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</span>
+	</form>
+</li>
+<li class="course-name"><label>Professional Interior Decorating (1 Day + Virtual Training)</label></li>
+<li class="course-payment">
+	<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+		<input type="hidden" name="cmd" value="_s-xclick">
+		<input type="hidden" name="hosted_button_id" value="CU35WAE9NR67G">
+		<label><input type="hidden" name="on0" value="Payment Options:">Payment Options:</label>
+		<span class="options">
+			<select name="os0">
+				<option value="Deposit">Deposit $250.00 USD</option>
+				<option value="Balance Due">Balance Due $500.00 USD</option>
+				<option value="Total Fee">Total Fee $750.00 USD</option>
+			</select>
+		</span>
+		<span>
+			<input type="hidden" name="currency_code" value="USD">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</span>
+	</form>
+</li>

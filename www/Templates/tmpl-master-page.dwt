@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" type="text/css" href="../styles/sir-default.css"/>
+<!-- TemplateBeginEditable name="head-content" -->
+<!-- TemplateEndEditable -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36118473-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Page Template</title>
+<!-- TemplateEndEditable -->
+<style>
+
+</style>
+
+</head>
+
+<body>
+<div id="page">
+	<div id="head">
+    	<div id="logo"><img src="../images/logo_school_of_interior_redesign.jpg" alt="The School of Interior Redesign, LLC, offers classroom training and certificate programs in interior redesign, interior decorating, one day decorating, home staging training, and real estate staging training, as well as redecorating and staging workshops, seminars, home study courses and teleclasses." width="130" height="150" /></div>
+    	<div id="banner">
+        	<p>Teaching you how to make spaces beautiful and businesses successful...</p>
+        	<table>
+            	<tr>
+                	<td>a</td>
+                	<td>b</td>
+                	<td>c</td>
+                </tr>
+            </table>
+      </div>
+    </div>
+	<div id="body">
+        <div id="contact">
+           	<table>
+            	<tr>
+                	<td>P.O. Box 183</td>
+                	<td>Milford, CT 06460</td>
+                	<td>(203) 783-1556</td>
+                	<td><a href="mailto:info@schoolofinteriorredesign.com">info@schoolofinteriorredesign.com<a></td>
+                </tr>
+            </table>
+		</div>
+    	<div id="navigation">
+        <ul>
+        	<li><a href="">Home</a></li>
+        </ul>
+        </div>
+    	<div id="content"><!-- TemplateBeginEditable name="content" -->content<!-- TemplateEndEditable --></div>
+    </div>
+	<div id="foot">
+    	<div id="associations">
+        	<table>
+        		<tr>
+	            	<td>1</td>
+	            	<td>2</td>
+	            	<td>3</td>
+	            	<td>4</td>
+	            	<td>5</td>
+	            </tr>
+        	</table>
+        </div>
+    	<div id="navigation">footer nav</div>
+    </div>
+</div>
+<div id="copyright">copyright</div>
+</body>
+</html>

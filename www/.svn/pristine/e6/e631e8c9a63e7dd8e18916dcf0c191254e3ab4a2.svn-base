@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /assets/
+Disallow: /Library/
+Disallow: /cgi-bin/
+Disallow: /images/
+Disallow: /Library/
+Disallow: /styles/
+Disallow: /Templates/
+
+Sitemap: http://www.schoolofinteriorredesign.com/sitemap.xml

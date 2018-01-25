@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0b1 | 201101 
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+	margin:0;
+	padding:0;
+}
+
+* {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+body {
+	background:#FFAA19;
+}
+
+#page,
+#copyright {
+	width:780px;
+	margin:0 auto;
+}
+
+#page {
+	margin:20px auto 10px auto;
+	padding:8px;
+	background:#000;
+}
+
+#head,
+#body,
+#foot {
+	position:relative;
+}
+
+#head,
+#logo,
+#banner {
+	height:180px;
+}
+
+#logo img {
+	position:absolute;
+	top:15px;
+	left:42px;
+}
+
+#banner p {text-align:center;}
+
+#banner table,
+#contact table,
+#associations table {
+	width:100%;
+}
+
+table tr td {text-align:center;}
+
+#logo,
+#banner,
+#navigation,
+#content,
+#foot {
+	background:#fff;
+}
+
+#head #logo,
+#head #banner,
+#body #navigation,
+#body #content {
+	float:left;
+	min-height:100px;
+}
+
+#head #logo,
+#body #navigation {
+	width:200px;
+	margin:0 8px 0 0;
+	clear:left;
+}
+
+#head #banner,
+#body #content {
+	width:556px;
+}
+
+#contact {
+	height:30px;
+	padding:0 30px;
+	background:#FFAA19;
+}
+
+#body {
+	background:pink;
+	overflow:hidden;
+	min-height:360px;
+}
+
+#body #navigation,
+#body #content {
+	margin-bottom:-5000px;
+	padding-bottom:5000px;
+}
+
+#foot {background:lightgreen;}
+
+#copyright {
+	text-align:center;
+}
