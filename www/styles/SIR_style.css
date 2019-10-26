@@ -186,12 +186,12 @@ h2,
 h3 {
 	font-family: "Arial Black", Helvetica, sans-serif;
 	color: #FF9900;
-	text-align:center;
+	text-align:left;
 	margin:0 20px;
 }
 
 h1 {
-	font-size: 20px;
+	font-size: 24px;
 	line-height:22px;
 	margin-bottom:0.5em;
 }
@@ -274,7 +274,7 @@ p.course-description {
 	font-style:italic;
 	font-size: 16px;
 	line-height:18px;
-	text-align:center;
+	text-align:left;
 }
 
 .tagline {
