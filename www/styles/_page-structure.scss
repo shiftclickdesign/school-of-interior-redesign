@@ -1,0 +1,143 @@
+$content-width: 760px;
+$page-margin: 30px;
+$left-panel-width: 200px;
+$right-panel-width: auto;
+$content-margin: 6px;
+$content-gutter: 4px;
+$item-standoff: 10px;
+
+$site-background-color: #FFAA19;
+$main-content-fill: #000000;
+$logo-background: #FFFFFF;
+$banner-background: #FFFFFF;
+$navigation-background: #FFFFFF;
+$content-background: #FFFFFF;
+$footer-background: #FFFFFF;
+
+.main-content {
+  width: $content-width;
+  margin: $page-margin auto 0 auto;
+  padding: $content-margin;
+  background-color: $main-content-fill;
+
+  outline: 1px dotted red;
+  
+  .logo,
+  .navigation {
+    flex: 0 0 $left-panel-width;
+    margin-right: $content-margin;
+  }
+  
+  .logo {
+	  padding: $item-standoff;
+    background-color: $logo-background;
+  }
+
+  .banner {
+    background-color: $banner-background;
+	  
+	  .tagline {
+		  padding: $item-standoff;
+	  }
+  }
+
+  .page-contact-info {
+		justify: space-around;
+		background-color: $site-background-color;
+		font-weight: bold;
+	  
+		a {
+			font-weight: bold;
+			text-decoration: none;
+		}
+  }
+
+  .navigation {
+    background-color: $navigation-background;
+  }
+
+  .page-content {
+		padding-top: 20px;
+    background-color: $content-background;
+  }
+
+  .page-footer {
+    background-color: $footer-background;
+  }
+}
+
+.page-header,
+.banner-images,
+.page-contact-info,
+.page-body,
+.affiliates {
+  display: flex;
+  
+  & > * {
+    flex: 1 1 auto;
+  }
+}
+
+.page-header,
+.page-contact-info {
+	> * {
+		    text-align: center;
+	}
+}
+
+$contact-bullet-width: 20px;
+
+.page-contact-info {
+	flex: 0 0 auto;
+  padding: 4px;
+  background: lightblue;
+  margin: $content-gutter 0;
+  
+  > * {
+    position: relative;
+    margin-left: $contact-bullet-width;
+
+    &:after {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: -$contact-bullet-width;
+      content: '\2022';
+      width: $contact-bullet-width;
+    }
+
+    &:first-child {
+      margin: 0;
+
+      &:after {display: none;}
+    }
+  }
+}
+
+.page-footer {
+  text-align: right;
+  margin-top: $content-gutter;
+  padding: $item-standoff;
+
+	a {
+    text-decoration: none;
+  }
+  
+  .affiliates {
+    justify-content: space-around;
+
+    .affiliate-logo {
+      flex: 0 0 150px;
+    }
+  }
+  
+  .return-to-top {
+    margin-top: $item-standoff;
+  }
+}
+
+.copyright {
+  width: $content-width;
+  margin: ($page-margin / 2) auto $page-margin auto;
+  text-align: center;
+}

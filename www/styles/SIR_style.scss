@@ -1,0 +1,379 @@
+//@import 'sir-default';
+@import 'fonts';
+@import 'page-structure';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	font-size: 10pt;
+	line-height: 12pt;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFAA19;
+	margin: 6px;
+	padding: 6px;
+}
+
+tr.address-bar td {
+	background:#FFAA19;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	vertical-align:middle;
+	text-align:center;
+}
+
+hr {display: none;}
+
+/* -------------------------------------------------------------------------
+	Navigation
+   ------------------------------------------------------------------------- */
+   
+/* ---------------------------------
+	Main
+   --------------------------------- */
+
+ul.navbar {
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+ul.navbar,
+ul.navbar ul,
+ul.navbar li {
+	margin:0;
+	padding:0;
+}
+
+ul.navbar li {
+	list-style-type:none;
+}
+
+ul.navbar li a,
+ul.navbar li span {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-transform:uppercase;
+	padding-left:0.5em;
+}
+
+ul.navbar li a.course {
+	font-size:14px;
+	}
+
+
+ul.navbar li ul li a {
+	padding-left:1.5em;
+	font-size:12px;
+	text-transform:none;
+	background:url("../images/dot-yellow.gif") 8px 9px no-repeat;
+}
+
+ul.navbar li ul li a:hover {
+	background-image:url("../images/dot-red.gif");
+}
+
+ul.navbar li ul li ul li a {
+	padding-left:2.5em;
+	font-size:12px;
+	text-transform:none;
+	background-position:20px 9px;
+}
+
+ul.navbar li a,
+ul.navbar li span {
+	display:block;
+	font-family:inherit;
+	font-weight:bold;
+	text-decoration:none;
+	text-align: left;
+	padding:5px;
+	border-bottom:1px dotted #000;
+}
+
+tr.affiliates td {
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	padding-top: 10px;
+}
+
+   
+/* ---------------------------------
+	Footer
+   --------------------------------- */
+
+.footer ul.navbar {
+	position:relative;
+	float:left;
+	width:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	margin-bottom:20px;
+}
+
+.footer ul.navbar li {
+	position:relative;
+	display:inline;
+}
+
+.footer ul.navbar li a,
+.footer ul.navbar li span {
+	position:relative;
+	float:left;
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	text-transform:none;
+	padding:0 4px 0 0;
+	line-height:13px;
+	background:none;
+	border:none;
+}
+
+.footer ul.navbar li span.node {display:none;}
+
+.footer ul.navbar li ul li a:hover {background:none;}
+
+.footer ul.navbar li a:after,
+.footer ul.navbar li span:after {
+	content:" |";
+}
+
+//.footer div {text-align:right;}
+
+p,ul {
+	margin:0 20px 1em 20px;
+}
+
+ul {padding:0;}
+
+ul li {margin-bottom:0.5em;}
+
+.footer {
+	font-family: Arial;
+	font-size: 9px;
+	color: #333333;
+	font-weight: normal;
+}
+a.footer:link,
+a.footer:visited {
+	text-decoration: none;
+	color: #333333;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: normal;
+}
+
+a.footer:hover {
+	color: #990000;
+}
+
+
+h1,
+h2,
+h3 {
+	font-family: "Arial Black", Helvetica, sans-serif;
+	color: #FF9900;
+	text-align:left;
+	margin:0 20px;
+}
+
+h1 {
+	font-size: 22px;
+	line-height:22px;
+	margin-bottom:0.5em;
+}
+
+h2 {
+	font-size: 16px;
+	line-height:18px;
+	margin-top:0.25em;
+	margin-bottom:0.75em;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height:16px;
+	color:#000;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom:0.5em;
+}
+
+.classname {
+	font-family: Arial;
+	color: #000000;
+	text-decoration: none;
+	font-size: 9pt;
+	font-weight: 400;
+	font-style: normal;
+}
+a.classname:link {
+	color: #000000;
+	text-decoration: none;
+	font-style: normal;
+}
+a.classname:visited {
+	font-family: Arial;
+	font-size: 9pt;
+	font-weight: 400;
+	color: #000000;
+	text-decoration: none;
+	font-style: normal;
+}
+a.classname:hover {
+	font-family: Arial;
+	font-size: 9pt;
+	font-weight: 400;
+	color: #990000;
+	text-decoration: none;
+	font-style: normal;
+}
+
+a,
+a:link,
+a:visited {
+	color: #000000;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+a:hover {
+	color: #990000;
+}
+
+li {
+	margin-top: 0px;
+	margin-right: 40px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+}
+.teleclass {
+	font-family: Arial;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+
+p.course-description {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-style:italic;
+	font-size: 16px;
+	line-height:18px;
+	text-align:left;
+}
+
+.tagline {
+	font-family: Arial;
+	font-size: 11pt;
+	font-style: italic;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.accent {
+	font-style: italic;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+.testimonial,
+.attribution {
+	font: italic 10pt "Times New Roman";
+	color: #333333;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.attribution {text-align:right;}
+
+iframe.calendar {margin:0 5px 20px 5px;}
+
+ul.course-list {margin:0;padding:0;}
+
+ul.course-list li {
+	display:block;
+	clear:left;
+	margin:0;
+	padding:0;
+	list-style:none;
+	margin-bottom:0.25em;
+}
+
+ul.course-list li.course-name {
+	font-weight:bold;
+	border-top:1px dotted #999;
+	padding-top:6px;
+}
+
+ul.course-list li.course-name:first-child {
+	border:none;
+}
+
+ul.course-list li.course-payment {
+	height:26px;
+	padding-bottom:0.5em;
+}
+
+ul.course-list li.course-payment label,
+ul.course-list li.course-payment span {
+	float:left;
+}
+
+ul.course-list li.course-payment label {
+	width:130px;
+	padding-top:4px;
+}
+
+ul.course-list li.course-payment span.options {width:245px;}
+
+img[align="left"] {margin-right: 10px;}
+img[align="right"] {margin-left: 10px;}
+
+blockquote.testimonial {
+    font-size:16px; 
+	line-height: 1.3em;
+    padding:18px 20px 10px 20px;
+    margin-left: 20px; 
+    margin-bottom:40px;
+    background:#f2f1f6;
+	position: relative;
+}	
+
+blockquote.testimonial p {margin: 0 0 1em 1em;}
+
+blockquote.testimonial p:before {
+	display: block;
+	position: absolute;
+	left: 0.5em;
+}
+
+blockquote.testimonial p:before,
+blockquote.testimonial p:after {
+    color: #c73401;
+    font-size: 30px;
+    line-height: 0.5em;
+    margin-right: 0.27em;
+    content: "\201c";
+}
+
+blockquote.testimonial p:after {
+    display: inline-block;
+	content: "\201d";
+	vertical-align: bottom;
+}
+
+blockquote.testimonial em {
+	font-size: 14px;
+	margin-left: 1em;
+	}
