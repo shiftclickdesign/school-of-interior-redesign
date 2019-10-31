@@ -26,6 +26,7 @@ $footer-background: #FFFFFF;
   .navigation {
     flex: 0 0 $left-panel-width;
     margin-right: $content-margin;
+		width: $left-panel-width;
   }
   
   .logo {
@@ -42,7 +43,7 @@ $footer-background: #FFFFFF;
   }
 
   .page-contact-info {
-		justify: space-around;
+		justify-content: center;
 		background-color: $site-background-color;
 		font-weight: bold;
 	  
@@ -90,7 +91,7 @@ $contact-bullet-width: 20px;
 .page-contact-info {
 	flex: 0 0 auto;
   padding: 4px;
-  background: lightblue;
+//  background: lightblue;
   margin: $content-gutter 0;
   
   > * {
@@ -124,10 +125,11 @@ $contact-bullet-width: 20px;
   }
   
   .affiliates {
-    justify-content: space-around;
+    justify-content: center;
 
     .affiliate-logo {
       flex: 0 0 150px;
+			text-align: center;
     }
   }
   
